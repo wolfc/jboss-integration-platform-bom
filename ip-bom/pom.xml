@@ -1490,6 +1490,19 @@
       </dependency>
 
       <dependency>
+        <groupId>org.fusesource.hawtbuf</groupId>
+        <artifactId>hawtbuf</artifactId>
+        <version>${version.org.fusesource.hawtbuf}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource.mqtt-client</groupId>
+        <artifactId>mqtt-client</artifactId>
+        <version>${version.org.fusesource.mqtt-client}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
         <groupId>org.glassfish.main.extras</groupId>
         <artifactId>glassfish-embedded-all</artifactId>
         <version>${version.org.glassfish}</version>
@@ -1508,6 +1521,11 @@
       </dependency>
       <dependency>
         <groupId>org.hornetq</groupId>
+        <artifactId>hornetq-commons</artifactId>
+        <version>${version.org.hornetq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hornetq</groupId>
         <artifactId>hornetq-core-client</artifactId>
         <version>${version.org.hornetq}</version>
       </dependency>
@@ -1522,6 +1540,11 @@
         <version>${version.org.hornetq}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.infinispan</groupId>
+        <artifactId>infinispan-common-spi</artifactId>
+        <version>${version.org.infinispan}</version>
+      </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-core</artifactId>
@@ -1705,6 +1728,12 @@
 
       <dependency>
         <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-build-config</artifactId>
+        <version>${version.org.jboss.as.arquillian}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-naming</artifactId>
         <version>${version.org.jboss.as}</version>
       </dependency>
@@ -1716,6 +1745,11 @@
       <dependency>
         <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-controller</artifactId>
+        <version>${version.org.jboss.as}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-controller-client</artifactId>
         <version>${version.org.jboss.as}</version>
       </dependency>
       <dependency>
@@ -1758,6 +1792,11 @@
       <dependency>
         <groupId>org.jboss.ironjacamar</groupId>
         <artifactId>ironjacamar-jdbc</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-spec-api</artifactId>
         <version>${version.org.jboss.ironjacamar}</version>
       </dependency>
 
@@ -1982,6 +2021,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jboss.logmanager</groupId>
+        <artifactId>jboss-logmanager</artifactId>
+        <version>${version.org.jboss.logmanager}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.jboss.marshalling</groupId>
         <artifactId>jboss-marshalling</artifactId>
         <version>${version.org.jboss.marshalling}</version>
@@ -1997,6 +2042,12 @@
         <groupId>org.jboss.marshalling</groupId>
         <artifactId>jboss-marshalling-osgi</artifactId>
         <version>${version.org.jboss.marshalling}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.modules</groupId>
+        <artifactId>jboss-modules</artifactId>
+        <version>${version.org.jboss.modules}</version>
       </dependency>
 
       <dependency>
